@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #020b26!important;
+}
+
+.nav-item  , .nav-link ,  .active{
+  color: white!important;
+}
+
+.container-generation{
+  font-size: 72px;
+  color: white;
+}
+.container-gen{
+  color:  #33BBCF;
+}
+
+.container-team{
+  font-size: 18px;
+  width: 25%;
+}
