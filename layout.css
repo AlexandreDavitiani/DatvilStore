@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .container-next{
+    padding-top: 3rem;
+  }
+
+  .container-arm-cards img {
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+}
