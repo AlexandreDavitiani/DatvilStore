@@ -69,3 +69,79 @@ body{
   height: 100px;
   padding-left: 5%;
 }
+.container-number {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 10px;
+}
+.container-w-b{
+  font-size: 20px;
+  color: #33BBCF;
+  padding: 10px;
+}
+.container-w-n{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container-y-b{
+  width: 40%;
+  color:  #ffffff;
+  font-size: 48px;
+}
+.container-r-a{
+  color: #FFFFFFB2;
+  width: 40%;
+
+}
+.container-get{
+  color: black;
+  background: #33BBCF;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-get{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+a{
+text-decoration: none!important;
+}
+.container-third-page{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-security{
+background-color: #433b54;
+padding: 20PX;
+border-radius: 20px;
+}
+.container-paypal img{
+  width: 50%;
+
+}
+.container-security{
+  padding: 20PX;
+
+}
+.container-balance{
+  padding: 20PX;
+
+}
+.container-all-security{
+  display: block;
+  width: 50%;
+}
+.container-third-page{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
