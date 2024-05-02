@@ -1,0 +1,334 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background: #F4E6DF;
+}
+header{
+  padding-top: 5px;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+.main-menu ul{
+
+  list-style-type: none;
+  display: flex;
+  color: #65317E;
+  display: inline-flex;
+  align-items: center;
+  gap: 3.8rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo img{
+  width: 2.5rem;
+  height: 3.3rem;
+}
+
+
+
+
+#btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff5722; /* Цвет кнопки */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Плавное изменение цвета фона */
+}
+
+#btn:hover {
+  background-color: #e64a19; /* Цвет кнопки при наведении */
+}
+
+#btn{
+  background-color: #65317E;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+.contsiner-courses{
+  color: #65317E;
+}
+.container-k-g{
+  padding-top: 3%;
+  color: #65317E;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.container-phyton{
+  width: 25%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-courses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-courses{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width:26%;
+  padding-left: 1%;
+  margin: 1.5%;
+}
+
+.cont-courses img {
+  width: 100%;
+}
+.container-color-geolab{
+  color: #65317E;
+}
+.container-color-inherit-purple{
+  color: #662E88;
+}
+.container-padding{
+  padding: 10px;
+}
+.container-margin{
+  margin: 10px;
+}
+
+.container-font-size{
+  font-size: 22px;
+  color: #662e88;
+}
+.container-bold-size-30{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cont-font-f{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container-vi-le{
+  width: 30%;
+  padding-top: 6%;
+  margin-left:9.5%;
+}
+.container-color-inherit{
+  color: #5E5454;
+
+}
+.container-vi-le article{
+  color: #5E5454;
+  padding-top: 2%;
+}
+
+.container-y-v{
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  margin-left:9.5%;
+  margin-bottom: 2%;
+
+}
+
+.container-y-v img {
+  width: 2%;
+  margin-left: 2%;
+}
+
+
+.container-slider-img img {
+  width: 100%;
+}
+
+.container-min-ph img {
+  width: 100%;
+
+}
+.container-proj{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+.container-w-p{
+  padding-left: 2%;
+  color: #65317E;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container-proj img{
+  height: 380px;
+  padding: 15px;
+
+}
+.container-discription{
+  color: #65317E;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+
+.container-video img{
+  width: 26%;
+}
+.img-art{
+  width: 30%;
+}
+
+
+.container-all-v-a-l {
+  display: flex;
+}
+
+.container-vi-le {
+  flex: 1;
+}
+
+.container-y-v {
+  margin-left: auto;
+}
+
+.img-art {
+  margin-right: 10%;
+}
+.container-y-v p {
+  display: inline-block;
+  text-align: left;
+}
+
+.container-vi-yout{
+  display: flex;
+  align-items: center;
+}
+.container-vi-yout img {
+  width: 3%;
+  margin:20px;
+}
+.container-geolab-yout{
+  width:60%;
+  font-size: 18px;
+}
+
+.container-us-img img  {
+  width: 100%;
+}
+.container-ab-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-us-w{
+  font-weight: bold;
+  padding-left: 2.5%;
+
+
+}
+.container-us-txt{
+  width: 50%;
+  color: #5E5454;
+
+}
+.container-us-text{
+  width:80%;
+  padding: 20px;
+}
+
+.container-us-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-over-img {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.container-color-purple{
+  color: #662e88;
+  font-size: 34px;
+}
+
+.container-n-w{
+  color: #662e88;
+  font-weight: normal;
+
+}
+.container-downlad{
+  border-radius: 14px;
+  border: solid #662e88;
+  height: 63px;
+  width: 60%;
+  padding: 12px 19px;
+  background: inherit;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: #662e88;
+
+}
+.container-btn{
+  padding-top: 2%;
+  padding-left: 15%;
+
+}
+
+.container-downlad img{
+  padding-left: 20px;
+  max-width: 40%;
+  color: #662e88;
+}
+.container-color-purple{
+  padding: 20px;
+}
+.container-n-w{
+  padding-bottom: 10px;
+}
+
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 2s ease;
+
+}
+.slide img {
+  width: 100%;
+}
+
+.slide {
+  flex: 0 0 100%;
+  text-align: center;
+}

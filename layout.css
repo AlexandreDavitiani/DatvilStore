@@ -1,10 +1,52 @@
-@media (max-width: 768px) {
-  .container-next{
-    padding-top: 3rem;
+@media only screen and (max-width: 600px) {
+
+
+  .container-courses{
+    flex-direction: column;
+
   }
 
-  .container-arm-cards img {
-    margin-bottom: 20px !important;
-    width: 100% !important;
+  .cont-courses{
+    width: 80%;
+    padding-top: 3%;
+  }
+
+.container-min-ph{
+  padding-top: 2%;
+}
+  .container-proj{
+      flex-direction: column;
+  }
+
+  .container-all-v-a-l{
+    flex-direction: column;
+  }
+  .container-ab-us{
+    flex-direction: column;
+  }
+  .container-us-text{
+    width: 100%;
+  }
+  nav{
+    display: none;
+  }
+  .container-vi-le{
+    width: 90%;
+  }
+  .img-art {
+    width:100%;
+  }
+  .container-us-txt{
+    width: 100%;
+  }
+  .container-downlad{
+    width: 100%;
+  }
+  .slides{
+    height: 100%;
+
+  }
+  .slides img {
+    width: 100%;
   }
 }
