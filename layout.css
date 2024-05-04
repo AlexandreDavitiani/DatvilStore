@@ -49,4 +49,7 @@
   .slides img {
     width: 100%;
   }
+  .cont-img-lv{
+    flex-direction: column;
+  }
 }

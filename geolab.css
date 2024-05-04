@@ -292,7 +292,7 @@ a{
   font-size: 20px;
   font-weight: bold;
   color: #662e88;
-
+  width: 100%;
 }
 .container-btn{
   padding-top: 2%;
@@ -332,3 +332,58 @@ a{
   flex: 0 0 100%;
   text-align: center;
 }
+
+
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.carousel {
+  padding-top: 2%;
+  display: flex;
+  width: 700px;
+  animation: carousel-slide 7s linear infinite;
+}
+
+@keyframes carousel-slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-700px);
+  }
+}
+
+.carousel-image {
+  flex: 0 0 auto;
+  width: 55%;
+  height: 400px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.cont-img-lv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cont-img-lv img{
+  width: 230px;
+  height: 110px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin: 30px;
+  
+}
+
+/* header{
+  position: fixed;
+  width:100%;
+  background-color: #F4E6DF;
+} */
