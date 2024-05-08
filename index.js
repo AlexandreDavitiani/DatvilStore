@@ -1,25 +1,18 @@
-const body = document.querySelector('body');
-const btn = document.getElementById('btn');
-
-function handleColor() {
-    if (body.style.backgroundColor === 'black') {
-        body.style.backgroundColor = '#F4E6DF';
-    } else {
-        body.style.backgroundColor = 'black';
-    }
-}
-
-btn.addEventListener('click', handleColor);
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
+  const body = document.querySelector('body');
+  const checkbox = document.getElementById('checkbox');
+  const burgerIcon = document.querySelector(".burger-icon");
+  const mainMenu = document.querySelector(".main-menu");
   const slides = document.querySelectorAll(".slide");
   const slider = document.querySelector(".slides");
 
   let currentSlide = 0;
   const slideWidth = slides[0].clientWidth;
   const totalSlides = slides.length;
+
+  function handleColor() {
+    body.style.backgroundColor = checkbox.checked ? 'black' : '#F4E6DF';
+  }
 
   function nextSlide() {
     currentSlide = (currentSlide + 1) % totalSlides;
@@ -31,5 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
     slider.style.transform = `translateX(${newPosition}px)`;
   }
 
+  checkbox.addEventListener('change', handleColor);
+  burgerIcon.addEventListener("click", function() {
+    mainMenu.classList.toggle("active");
+  });
+
   setInterval(nextSlide, 3200);
 });
+ч
