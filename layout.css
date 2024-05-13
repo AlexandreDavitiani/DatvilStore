@@ -110,7 +110,9 @@
   .cont-img-lv{
     flex-direction: column;
   }
-
+.container-technology{
+  flex-direction: column;
+}
 
 
 
