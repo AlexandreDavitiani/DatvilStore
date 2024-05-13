@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "full_name": "ალექსანდრე ასათიანი, დამფუძნებელი, რექტორი",
+    "email": "s.asatiani@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/sandro-scaled.jpeg"
+  },
+  {
+    "id": 2,
+    "full_name": "ვახო ვახტანგიშვილი, დამფუძნებელი, პარტნიორი",
+    "email": "v@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/vakho-scaled.jpeg"
+  },
+  {
+    "id": 3,
+    "full_name": "ლანა ლაბაძე, აღმასრულებელი დირექტორი",
+    "email": "lana@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/lana.png"
+  }
+  {
+    "id": 4,
+    "full_name": "თამუნა გოგობერიშვილი, დიზაინერი",
+    "email": "tamuna.gogoberishvili@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/thamuna-1-scaled.jpeg"
+  }
+  {
+    "id": 5,
+    "full_name": "გიორგი ვახტანგიშვილი, ტექნიკური დირექტორი",
+    "email": "g.vakhtangishvili@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/gio-min.jpg"
+  }
+  {
+    "id": 6,
+    "full_name": "თამარ გეწაძე, ციფრული კომუნიკაციების და სტრატეგიული პროექტების მენეჯერი",
+    "email": "tamar.getsadze@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/getsa-scaled.jpeg"
+  }
+  {
+    "id": 7,
+    "full_name": "ანა გრძელიშვილი, საგანმანათლებლო სექტორის ხელმძღვანელი",
+    "email": "ana.grdzelishvili@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/ana-scaled.jpeg"
+  }
+  {
+    "id": 8,
+    "full_name": "ნატა თეთრაძე, საგანმანათლებლო სექტორის მენეჯერი",
+    "email": "nato.tetradze@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/nata-min-scaled.jpeg"
+  }
+  {
+    "id": 9,
+    "full_name": "თამარ გოგოხია, საგანმანათლებლო სექტორის მენეჯერი",
+    "email": "tamar.gogokhia@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/thamari-scaled.jpeg"
+  }
+  {
+    "id": 10,
+    "full_name": "შალვა ხმიადაშვილი, BRANCH მენეჯერი",
+    "email": "shalva.khmiadashvili@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/shako-scaled.jpeg"
+  }
+  {
+    "id": 11,
+    "full_name": "გიგა ხუნდაძე, BRANCH მენეჯერი",
+    "email": "giorgi.khundadze15b@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/giga-scaled.jpeg"
+  }
+  {
+    "id": 12,
+    "full_name": "გიორგი ნონიკაშვილი, ICT პროექტების მენეჯერი",
+    "email": "parma@geolab.edu.ge",
+    "photo": "https://geolab.edu.ge/wp-content/uploads/2024/01/parma-scaled.jpeg"
+  }
+]
