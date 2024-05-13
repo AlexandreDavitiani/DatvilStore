@@ -466,3 +466,6 @@ a{
   font-size: 20px;
   padding-top: 12px;
 }
+.container-technology img{
+  max-width: 100%;
+}

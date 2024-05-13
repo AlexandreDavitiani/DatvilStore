@@ -113,6 +113,9 @@
 .container-technology{
   flex-direction: column;
 }
+.container-ph-les img{
+width: 100%;
+}
 
 
 
