@@ -1,0 +1,26 @@
+.container-fisrt-react-p li{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+
+  
+}
+.logo img{
+  width: 25%;
+  border-radius: 16px;
+}
+.container-fisrt-react-p{
+
+align-items: center;
+justify-self: center;
+}
+input{
+  padding: 20px;
+  border-radius:16px;
+  border-color: red;
+}

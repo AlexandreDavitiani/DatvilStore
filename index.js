@@ -1,34 +1,20 @@
-  document.addEventListener("DOMContentLoaded", function() {
-  const body = document.querySelector('body');
-  const checkbox = document.getElementById('checkbox');
-  const burgerIcon = document.querySelector(".burger-icon");
-  const mainMenu = document.querySelector(".main-menu");
-  const slides = document.querySelectorAll(".slide");
-  const slider = document.querySelector(".slides");
+ReactDOM.render(     
 
-  let currentSlide = 0;
-  const slideWidth = slides[0].clientWidth;
-  const totalSlides = slides.length;
+        <div class= "container-fisrt-react-p"> 
+        <div class= 'logo'><img src= "r-img/cover.png"/></div>
 
-  function handleColor() {
-    body.style.backgroundColor = checkbox.checked ? 'black' : '#F4E6DF';
-  }
+<nav>
+    <ul>
+       <a href =''> <li>Menu</li></a>
+       <a href =''> <li>Imp</li></a>
+       <a href =''> <li>Pages</li></a>
+       <a href =''> <li>About us </li></a>
+      
+    </ul>
+</nav>
 
-  function nextSlide() {
-    currentSlide = (currentSlide + 1) % totalSlides;
-    updateSlider();
-  }
 
-  function updateSlider() {
-    const newPosition = -currentSlide * slideWidth;
-    slider.style.transform = `translateX(${newPosition}px)`;
-  }
 
-  checkbox.addEventListener('change', handleColor);
-  burgerIcon.addEventListener("click", function() {
-    mainMenu.classList.toggle("active");
-  });
+        </div>,document.getElementById('container')  
+)
 
-  setInterval(nextSlide, 3200);
-});
-ч
