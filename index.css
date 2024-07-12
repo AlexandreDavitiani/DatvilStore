@@ -47,3 +47,31 @@ nav ul{
     align-items: center;
     justify-self: center
 }
+
+.container-sidebar{
+    background-color: #4c2268;
+    width: 18%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    
+}
+.menu-item{
+    font-size: 20px!important;
+    font-weight: bolder!important;
+    padding: 4%;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+    color: antiquewhite;
+    border-bottom: solid red 2px;
+}
+.container-sidebar {
+    padding-top: 20px;
+    background-color: grey;
+    margin-top: 2%;
+    margin-left: 0.3%;
+    border-radius: 5%;
+
+  }
+  
