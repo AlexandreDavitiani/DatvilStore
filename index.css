@@ -64,7 +64,7 @@ nav ul{
     text-align: center;
     justify-content: center;
     color: antiquewhite;
-    border-bottom: solid red 2px;
+    border-bottom: solid purple 2px;
 }
 .container-sidebar {
     padding-top: 20px;
@@ -74,4 +74,47 @@ nav ul{
     border-radius: 5%;
 
   }
-  
+  .fl-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+  }
+ 
+
+  .phone-numbers {
+    list-style-type: none;
+    padding: 0;
+}
+.phone-numbers  {
+    display: inline;
+    margin-right: 15px;
+}
+.phone-numbers {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.phone-numbers li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.phone-numbers li a {
+    text-decoration: none;
+    color: #3498db;
+    margin-left: 5px;
+}
+.container-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-sidebar{
+    padding: 2%;
+    margin: 2%;
+}
+
