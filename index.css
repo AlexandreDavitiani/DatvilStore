@@ -136,87 +136,108 @@ a{
   color: #6c757d;
 }
 .product-card {
-     position: relative;
-     overflow: hidden;
-     transition: transform 0.2s;
-   }
-   .product-card img {
-     width: 100%;
-     height: auto;
-   }
-   .product-info {
-     text-align: center;
-     padding: 10px 0;
-   }
-   .add-to-cart {
-     position: absolute;
-     bottom: 10px;
-     left: 50%;
-     transform: translateX(-50%);
-     opacity: 0;
-     transition: opacity 0.2s;
-   }
-   .product-card:hover .add-to-cart {
-     opacity: 1;
-   }
-   .product-card:hover {
-     transform: scale(1.05);
-   }
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+.product-info {
+  text-align: center;
+  padding: 10px 0;
+}
+.add-to-cart {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.product-card:hover .add-to-cart {
+  opacity: 1;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
 
-   .container-tw-th-tg{
-     display: flex;
-   }
+.container-tw-th-tg{
+  display: flex;
+}
 
-   .simple-line {
-     height: 2px;
-     background-color: #343A40;
-     width: 100%;
-     padding-bottom: 2.5%;
-   }
-   .subscribe-section {
-      text-align: center;
-      padding: 50px 0;
-      background-color: #343A40;
-      color: white;
-    }
+.simple-line {
+  height: 2px;
+  background-color: #343A40;
+  width: 100%;
+  padding-bottom: 2.5%;
+}
+.subscribe-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color:#EDF1F3;
+  color: white;
+}
 
-    .subscribe-section h2 {
-      font-size: 2.5rem;
-      color: white;
-      margin-bottom: 20px;
-    }
+.subscribe-section h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
 
-    .subscribe-section .subscribe-form {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
+.subscribe-section .subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-    .subscribe-section .subscribe-form input[type="email"] {
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      width: 25%;
-      margin-right: 10px;
-    }
+.subscribe-section .subscribe-form input[type="email"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 25%;
+  margin-right: 10px;
+}
 
-    .subscribe-section .subscribe-form button {
-      padding: 10px 20px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      background-color: #dc3545;
-      color: #fff;
-      cursor: pointer;
-    }
+.subscribe-section .subscribe-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
 
-    .subscribe-section .subscribe-form button:hover {
-      background-color: #c82333;
-    }
+.subscribe-section .subscribe-form button:hover {
+  background-color: #c82333;
+}
 
-    .subscribe-section .subscribe-info {
-      font-size: 1rem;
-      color: #666;
-    }
+.subscribe-section .subscribe-info {
+  font-size: 1rem;
+  color: #666;
+}
+.conatiner-area{
+  background-color: #343A40;
+}
+.container-alm-footer img {
+  width: 100%;
+}
+.container-alm-footer img{
+  width: 100%;
+  height: 170px;
+  margin-bottom: 20px;
+}
+ .container-nav-fot ul{
+  display: flex!important;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+  padding: 15px;
+}
