@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+.container-tw-th-tg{
+  flex-direction: column;
+  padding-top: %;
+  display: block;
+}
+.container-nav-fot ul{
+  flex-direction: column;
+}
+.container-list{
+  padding: 0px!important;
+}
+
+.row , .text-center{
+  padding-top: 70%;
+}
+.subscribe-section .subscribe-form input[type="email"]{
+  width: 50%;
+}
+.navbar-brand a {
+  display: none;
+}
+
+}
