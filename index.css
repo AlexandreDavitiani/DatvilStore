@@ -27,6 +27,11 @@ header{
   background-color: black;
   color: white;
   font-size: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
 }
 nav{
   display: flex;
@@ -81,8 +86,12 @@ nav ul{
   padding: 1%;
 
 }
-
-
+.image-holder img {
+  padding-top: 20%;
+}
+.banner-content{
+  padding-top: 20%;
+}
 .phone-numbers {
   list-style-type: none;
   padding: 0;
@@ -267,5 +276,14 @@ object-fit: cover;
 
 .container-products-f{
   display: block!important;
+
+}
+
+
+
+.container-class{
+  padding-right: 3%;
+
+
 
 }

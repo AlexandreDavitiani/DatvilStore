@@ -20,5 +20,13 @@
 .navbar-brand a {
   display: none;
 }
-
+.banner-content{
+width: 100%;
+}
+/* #yearly-sale{
+  display: none;
+} */
+/* .container-bill {
+padding: 0;
+} */
 }
