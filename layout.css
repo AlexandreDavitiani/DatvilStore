@@ -23,10 +23,12 @@
 .banner-content{
 width: 100%;
 }
-/* #yearly-sale{
-  display: none;
-} */
-/* .container-bill {
-padding: 0;
-} */
+.container-contact{
+  margin: 5%!important;
+}
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #343A40!important;
+  transition: background-color 0.3s, border-color 0.3s !important;
+}
 }

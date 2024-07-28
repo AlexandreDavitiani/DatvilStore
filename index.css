@@ -253,7 +253,7 @@ a{
   margin-bottom: 20px;
   object-fit: contain;
 }
- .container-nav-fot ul{
+.container-nav-fot ul{
   display: flex!important;
   align-items: center;
   color: white;
@@ -266,7 +266,7 @@ footer{
 }
 .card-imag , .img-fluid{
   height: 300px!important;
-object-fit: cover;
+  object-fit: cover;
 }
 .container-erv{
   margin: 0px!important;
@@ -276,14 +276,54 @@ object-fit: cover;
 
 .container-products-f{
   display: block!important;
-
 }
-
-
 
 .container-class{
   padding-right: 3%;
+}
 
+.card {
+  border: none!important;
+  border-radius: 10px!important;
+}
 
+.card-title {
+  font-size: 1.5rem !important;
+  color: #white!important;
+}
+
+.form-control {
+  border-radius: 5px!important;
+}
+
+.btn-primary {
+  background-color: #007bff !important;
+  border-color: #343A40!important;
+  transition: background-color 0.3s, border-color 0.3s !important;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+.container-contact{
+  padding-top : 10%!important;
+  padding-bottom: 10%;
+}
+.card-body{
+  background: #343A40;
+  color: white;
+}
+.container-lf-wtc{
+  display: flex;
+}
+.product-card{
+  padding-bottom: 3%!important;
+  padding-top: 10%;
+  border-radius: 25px!important;
+}
+.list-group li{
+  background-color: #343A40;
+  color: white;
 
 }
